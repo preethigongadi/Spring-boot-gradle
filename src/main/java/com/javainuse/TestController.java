@@ -9,9 +9,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class TestController {
 
 	@RequestMapping("/")
-	public ModelAndView firstPage() {
-		return new ModelAndView("welcome"); 
-		//return "welcome";
+	public String firstPage() {
+		//return new ModelAndView("welcome"); 
+		return "welcome";
 	}
 	
 
